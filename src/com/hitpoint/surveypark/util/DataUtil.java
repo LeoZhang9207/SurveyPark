@@ -2,7 +2,7 @@ package com.hitpoint.surveypark.util;
 
 import java.security.MessageDigest;
 
-public class DateUtil {
+public class DataUtil {
 	public static String md5(String src){
 		try {
 			StringBuffer buffer = new StringBuffer();
