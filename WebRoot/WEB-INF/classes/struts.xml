@@ -4,6 +4,8 @@
 	"http://struts.apache.org/dtds/struts-2.1.dtd">
 <struts>
 	<package name="surveyparkPkg" extends="struts-default" namespace="/">
-		
+		<action name="RegAction_*" class="regAction" method="{1}">
+			<result name="regPage">/reg.jsp</result>
+		</action>
 	</package>
 </struts>
